@@ -36,6 +36,7 @@
                 <path>/</path>
             </configuration>
         </plugin>
+
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>vfs-maven-plugin</artifactId>
@@ -56,6 +57,7 @@
                 </execution>
             </executions>
         </plugin>
+
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>wagon-maven-plugin</artifactId>
