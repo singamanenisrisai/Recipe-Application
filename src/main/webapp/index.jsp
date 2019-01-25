@@ -9,6 +9,6 @@
   <title>Azure Samples Hello World, Navneet</title>
 </head>
 <body>
-  <H1>Hello Azure, Quality Assurance Group 03 !!</H1>
+  <H1>Hello Azure, Navneet Singh !!</H1>
 </body>
 </html>
