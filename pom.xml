@@ -17,6 +17,13 @@
         <artifactId>javax.servlet-api</artifactId>
         <version>3.1.0</version>
     </dependency>
+    
+    <dependency>
+  <groupId>junit</groupId>     
+  <artifactId>junit-dep</artifactId>
+  <version>4.8.2</version>
+</dependency>
+
 </dependencies>
 <build>
     <extensions>
