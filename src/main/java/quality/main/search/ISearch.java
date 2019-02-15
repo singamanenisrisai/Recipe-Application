@@ -1,4 +1,4 @@
-package quality.main.search;
+package main.java.quality.main.search;
 
 public interface ISearch {
 

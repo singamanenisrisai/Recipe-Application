@@ -1,4 +1,4 @@
-package quality.test.search;
+package test.java.quality.test.search;
 
 public class SearchMock {
 
