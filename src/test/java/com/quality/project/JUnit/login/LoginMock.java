@@ -1,4 +1,4 @@
-package test.java.quality.test.login;
+package com.quality.project.JUnit.login;
 
 public class LoginMock {
 	

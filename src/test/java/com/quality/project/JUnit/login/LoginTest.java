@@ -1,11 +1,10 @@
-package test.java.quality.test.login;
+package com.quality.project.JUnit.login;
 
 import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import main.java.quality.main.login.ILogin;
-import main.java.quality.main.login.Login;
+import com.quality.project.login.*;
 
 class LoginTest {
 	

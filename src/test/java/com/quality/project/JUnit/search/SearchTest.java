@@ -1,4 +1,4 @@
-package test.java.quality.test.search;
+package com.quality.project.JUnit.search;
 
 public class SearchTest {
 	
