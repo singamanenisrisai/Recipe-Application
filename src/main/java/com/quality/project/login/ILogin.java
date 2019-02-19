@@ -1,4 +1,4 @@
-package main.java.quality.main.login;
+package com.quality.project.login;
 
 public interface ILogin {
 	
