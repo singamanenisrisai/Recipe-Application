@@ -4,6 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.quality.project.search.Search;
 
@@ -21,6 +22,11 @@ public class RecipeController {
 	@RequestMapping("/check")
 	public List<String> getAllUserName() {
 		return sampleResults.getAllResults();
+	}
+
+	@RequestMapping("/home")
+	public ModelAndView getHomePage() {
+		return new ModelAndView("home");
 	}
 
 }
