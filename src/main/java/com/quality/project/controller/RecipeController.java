@@ -27,21 +27,12 @@ public class RecipeController {
 	public List<String> getAllUserName() {
 		return sampleResults.getAllResults();
 	}
-
-	
-//	@GetMapping(value = "/home")
-//	public String home(ModelMap model) {		
-//		String message ="Navneet Singh";
-//		model.addAttribute("message",message);
-//		return "home";
-////		return new ModelAndView("home","message",message);
-//	}
 	
 	@GetMapping(value = "/home")
 	public ModelAndView helloWorld() {
 	    ModelAndView mav = new ModelAndView();
 	    mav.setViewName("home");
-	    mav.addObject("message", "Hello World!");
+	    mav.addObject("message", sampleResults.getAllResults());
 	    return mav;
 	}
 
