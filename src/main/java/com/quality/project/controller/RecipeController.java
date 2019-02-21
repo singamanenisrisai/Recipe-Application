@@ -3,6 +3,7 @@ package com.quality.project.controller;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,10 +18,10 @@ public class RecipeController {
 	@Autowired
 	Search sampleResults;
 	
-//	@RequestMapping("/search")
-//	public String search() {
-//		return "Hello";
-//	}
+	@RequestMapping("/navneet")
+	public String search() {
+		return "Hello";
+	}
 	
 	@RequestMapping("/search")
 	public List<String> getAllUserName() {
@@ -28,13 +29,20 @@ public class RecipeController {
 	}
 
 	
-	@RequestMapping(value = "/home",method=RequestMethod.GET)
-	public ModelAndView getHomePage(ModelMap model) {
-		System.out.println("Inside Controller");
-		String message ="Navneet Singh";
-		model.addAttribute("message",message);
-		return new ModelAndView("home");
-//		return new ModelAndView("home","message",message);
+//	@GetMapping(value = "/home")
+//	public String home(ModelMap model) {		
+//		String message ="Navneet Singh";
+//		model.addAttribute("message",message);
+//		return "home";
+////		return new ModelAndView("home","message",message);
+//	}
+	
+	@GetMapping(value = "/home")
+	public ModelAndView helloWorld() {
+	    ModelAndView mav = new ModelAndView();
+	    mav.setViewName("home");
+	    mav.addObject("message", "Hello World!");
+	    return mav;
 	}
 
 }
