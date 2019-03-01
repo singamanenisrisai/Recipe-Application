@@ -1,4 +1,4 @@
-package com.quality.project.login;
+package com.quality.project.businesslayer;
 
 public interface ILogin {
 	

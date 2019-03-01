@@ -4,7 +4,8 @@ import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
-import com.quality.project.login.*;
+import com.quality.project.businesslayer.ILogin;
+import com.quality.project.businesslayer.Login;
 
 class LoginTest {
 	

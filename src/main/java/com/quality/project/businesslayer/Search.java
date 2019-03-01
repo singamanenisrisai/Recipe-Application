@@ -1,4 +1,4 @@
-package com.quality.project.search;
+package com.quality.project.businesslayer;
 
 import java.util.ArrayList;
 import java.util.List;
